@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav-section">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand great-vibes-regular text-white"
+          href="https://www.roblox.com/home"
+          >Roblox</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link fira-sans-regular text-white"
+                aria-current="page"
+                href="#background-sec"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link fira-sans-regular text-white"
+                aria-current="page "
+                href="#trend-sec"
+              >
+                Today's Pick</a
+              >
+            </li>
+
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link fira-sans-regular text-white"
+                href="#reco-sec"
+                
+                >Recomendation</a
+              >
+            </li>
+
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link fira-sans-regular text-white"
+                href="#game-slide"
+                
+                >Sponsered</a
+              >
+            </li>
+
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link fira-sans-regular text-white"
+                href="#contact-sec"
+                
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 search-bar"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success submit-button" type="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- background image section -->
+
+    <div class="container-fluid background-section p-4" id="background-sec"></div>
+
+    <!-- trending section -->
+
+    <div class="container-fluid trending-section text-center my-4 p-4" id="trend-sec">
+      <h1>Todays Picks</h1>
+
+      <h4 style="color: #07b7b6" class="my-4">A curiated selection of daily highlights</h4>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img
+              src="https://tr.rbxcdn.com/aec62a8b1a77cba282a5ea131da2c400/768/432/Image/Webp"
+              alt=""
+              width="100%"
+            />
+            <p>[Patriot] War Tycoon</p>
+          </div>
+          <div class="col">
+            <img
+              src="https://tr.rbxcdn.com/144d305321c62932a353cbbc011eaeff/768/432/Image/Webp"
+              alt=" "
+              width="100%"
+            />
+            <p>Toilet Tower Defense</p>
+          </div>
+          <div class="col">
+            <img
+              src="https://tr.rbxcdn.com/cff1fff6d02b7adab6c7ff121599a292/768/432/Image/Webp"
+              alt=" "
+              width="100%"
+            />
+            <p>[NEW]Keys 🗝️ Season 14</p>
+          </div>
+        </div>
+      </div>
+      <button class="trending-button">Click for More</button>
+    </div>
+
+    <!-- Recomendation section? -->
+
+    <div class="container fluid recomendation-section text-center my-4 p-4" id="reco-sec">
+
+      <h1>Recomendations For You!</h1>
+
+      <h4 style="color: #07b7b6" class="my-4">Games that we have in mind for you to explore</h4>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://tr.rbxcdn.com/f72f0a80de3269e6bdaad0657f99b42f/768/432/Image/Webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rusty Trip</h5>
+                <p class="card-text">
+                  A large variation of adventourous journeys helping you learn
+                  many skills.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://tr.rbxcdn.com/17a34e27c1039c192c9e2dc287536cbc/768/432/Image/Webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bloxburg</h5>
+                <p class="card-text">
+                  A large variation of adventourous journeys helping you learn
+                  many skills.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://tr.rbxcdn.com/a8f1dc33b28f78919c36e15c43736e70/500/280/Image/Jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jailbreak</h5>
+                <p class="card-text">
+                  A large variation of adventourous journeys helping you learn
+                  many skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Game slideshows -->
+
+<div class="container slide-show text-center my-4 p-4 slides" id="game-slide">
+
+  <h1 class="my-2">Sponsered!</h1>
+ 
+  <h4 style="color: #07b7b6;">These games have been sponsered and especially picked for you</h4>
+
+
+  <div id="carouselExampleAutoplaying" class="carousel slide my-2" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://tr.rbxcdn.com/57cfd0c3ec167de8af28fb54a2456e87/768/432/Image/Webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://tr.rbxcdn.com/766558ff3a6e7ddb4dc2ceb5e80b7a2c/768/432/Image/Webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://tr.rbxcdn.com/8f4b6ec08726c9c20189d3eab5999db5/768/432/Image/Webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<!-- contact section -->
+
+
+<div class="container text-center my-4 contact-section" id="contact-sec">
+<h1>Contact Us</h1>
+
+<h4 style="color: #07b7b6" class="my-4">We would love to hear from you!</h4>
+
+<form style="text-align:left;">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Click to recieve offers!</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+ 
+</div>
+
+  </body>
+</html>
